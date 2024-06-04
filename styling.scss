@@ -11,6 +11,44 @@ $large-font: 24px;
 $title-border: 8px;
 $book-border: 5px;
 
-.h1 {
-    color: white;
+//spacing variables
+$base-padding: 10px;
+$base-margin: 10px;
+
+//change main header to primary color and large font variables
+h1 {
+    font-size: $large-font;
+    color: $primary-color;
+    border: $title-border;
+}
+
+//change sub header to secondary color and medium font variables
+h2 {
+    font-size: $medium-font;
+    color: $secondary-color;
+    border: $title-border;
+}
+
+//paragraph set to secondary color and medium font
+p {
+    font-size: $medium-font;
+    color: $secondary-color;
+    border: $book-border;
+}
+
+//set a tags to small font
+a {
+    font-size: $small-font;
+}
+
+//styling for images
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+//styling class of webpage title section
+.pageTitle {
+    border: $title-border;
 }
