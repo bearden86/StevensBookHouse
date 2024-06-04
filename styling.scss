@@ -1,5 +1,5 @@
 //text color variables
-$primary-color: aquamarine;
+$primary-color: rgb(18, 49, 223);
 $secondary-color: green;
 
 //text size variables
@@ -8,8 +8,8 @@ $medium-font: 18px;
 $large-font: 24px;
 
 //border variables
-$title-border: 8px;
-$book-border: 5px;
+$title-border: 5px solid black;
+$book-border: 2px solid black;
 
 //spacing variables
 $base-padding: 10px;
@@ -26,14 +26,12 @@ h1 {
 h2 {
     font-size: $medium-font;
     color: $secondary-color;
-    border: $title-border;
 }
 
 //paragraph set to secondary color and medium font
 p {
     font-size: $medium-font;
     color: $secondary-color;
-    border: $book-border;
 }
 
 //set a tags to small font
@@ -45,6 +43,7 @@ a {
 img {
     height: 300px;
     width: 300px;
+    border: $book-border;
     border-radius: 10%;
 }
 
